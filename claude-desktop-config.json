@@ -1,0 +1,15 @@
+{
+  "name": "Boomi AtomSphere Manager",
+  "version": "1.0.0",
+  "description": "Manage Boomi AtomSphere processes, listeners and schedulers",
+  "apiProvider": {
+    "name": "boomi-mcp-api",
+    "baseUrl": "http://localhost:{PORT}",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "endpoints": [
+      /* Your endpoints as defined in the earlier artifact */
+    ]
+  }
+}

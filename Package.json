@@ -1,0 +1,30 @@
+{
+  "name": "boomi-mcs-server",
+  "version": "1.0.0",
+  "description": "MCS Server for Boomi AtomSphere API Integration",
+  "main": "boomi-mcs-server.js",
+  "scripts": {
+    "start": "node boomi-mcs-server.js",
+    "dev": "nodemon boomi-mcs-server.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "boomi",
+    "mcs",
+    "api",
+    "integration"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1"
+  }
+}
