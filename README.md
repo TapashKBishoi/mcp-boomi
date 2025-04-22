@@ -1,6 +1,6 @@
-# Boomi AtomSphere MCS Server
+# Boomi AtomSphere MCP Server
 
-A Node.js-based MCS (Microservices) server that provides a simplified interface to the Boomi AtomSphere API. This server allows you to:
+A Node.js-based MCP (Microservices) server that provides a simplified interface to the Boomi AtomSphere API. This server allows you to:
 
 - Check which processes are deployed
 - Determine if a deployment is a listener or scheduler
